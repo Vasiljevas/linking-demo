@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.coins-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.coins-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.87);
+}
+
+.coin {
+  padding: 0.25rem;
+  border: 1px solid;
+  border-color: rgba(255, 255, 255, 0.87);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.droppable {
+  height: 100%;
+}
